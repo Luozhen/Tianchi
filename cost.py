@@ -4,7 +4,7 @@
 import pandas as pd
 
 
-data = pd.read_csv(r'./resource/result.csv',
+data = pd.read_csv(r'./resource/sample_submission.csv',
                     names = ['Counter_id', 'Addr', 'Arrival_time', 'Departure', 'Amount', 'Order_id'])   # 读取表格
 
 counters = set(data['Counter_id'])
