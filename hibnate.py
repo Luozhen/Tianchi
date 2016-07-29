@@ -15,6 +15,9 @@ def b2d(b):  # 将二进制转化为十进制 x∈[0,10]
     t = t * 10 / 1023
     return t
 
+
+
+
 def best(pop, fitvalue): #找出适应函数值中最大值，和对应的个体
 	px = len(pop)
 	bestindividual = []
